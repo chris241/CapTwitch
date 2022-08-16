@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace CapTwitch.Api.Controllers
 {
@@ -17,8 +18,12 @@ namespace CapTwitch.Api.Controllers
         [HttpGet]
         public string Hi()
         {
-            return "Hello";
+            return "hi ";
         }
 
+    }
+    public class CaptTwitchDbContext : DbContext
+    {
+        public DbSet<SteamEvent> SteamEvents { get; set; }  
     }
 }
