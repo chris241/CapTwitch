@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "yra6CEyqvke8HMkn4lYM2+VJh1f8fh3XQw0tbh+yfnY=",
+  "Source": "CapTwitch.Api",
+  "BasePath": "_content/CapTwitch.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

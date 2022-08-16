@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapTwitch.Api", "CapTwitch.Api\CapTwitch.Api.csproj", "{09FA4E44-592D-4319-812B-91B448BD6062}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09FA4E44-592D-4319-812B-91B448BD6062}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09FA4E44-592D-4319-812B-91B448BD6062}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09FA4E44-592D-4319-812B-91B448BD6062}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09FA4E44-592D-4319-812B-91B448BD6062}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D7C0CFD-DDB8-46E8-BF7F-46F9634EF96E}
+	EndGlobalSection
+EndGlobal
