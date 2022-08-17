@@ -25,7 +25,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "weatherforecast",
+      "launchUrl": "StreamEvent",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

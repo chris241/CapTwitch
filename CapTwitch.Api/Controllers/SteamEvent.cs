@@ -16,10 +16,20 @@ namespace CapTwitch.Api.Controllers
     [Route("[controller]")]
     public class StreamEventController : ControllerBase
     {
-        [HttpGet]
-        public string Hi()
+        private CaptTwitchDbContext _ctx;
+        public StreamEventController(CaptTwitchDbContext ctx)
         {
-            return "hi ";
+            _ctx = ctx;
+        }
+        [HttpGet]
+        public List<SteamEvent> All()
+        {
+            return _ctx.SteamEvents.ToList();
+        }
+        [HttpPost]
+        public SteamEvent Post([FromBody]SteamEvent se)
+        {
+            return se;
         }
 
     }
