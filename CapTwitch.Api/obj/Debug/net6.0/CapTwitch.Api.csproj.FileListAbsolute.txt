@@ -19,3 +19,10 @@ C:\Users\ASUS\Desktop\CapTwitch.Api\CapTwitch.Api\obj\Debug\net6.0\refint\CapTwi
 C:\Users\ASUS\Desktop\CapTwitch.Api\CapTwitch.Api\obj\Debug\net6.0\CapTwitch.Api.pdb
 C:\Users\ASUS\Desktop\CapTwitch.Api\CapTwitch.Api\obj\Debug\net6.0\CapTwitch.Api.genruntimeconfig.cache
 C:\Users\ASUS\Desktop\CapTwitch.Api\CapTwitch.Api\obj\Debug\net6.0\ref\CapTwitch.Api.dll
+C:\Users\ASUS\Desktop\CapTwitch.Api\CapTwitch.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\ASUS\Desktop\CapTwitch.Api\CapTwitch.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ASUS\Desktop\CapTwitch.Api\CapTwitch.Api\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ASUS\Desktop\CapTwitch.Api\CapTwitch.Api\obj\Debug\net6.0\CapTwitch.Api.csproj.CopyComplete
+C:\Users\ASUS\Desktop\CapTwitch.Api\CapTwitch.Api\bin\Debug\net6.0\Humanizer.dll
+C:\Users\ASUS\Desktop\CapTwitch.Api\CapTwitch.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ASUS\Desktop\CapTwitch.Api\CapTwitch.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
