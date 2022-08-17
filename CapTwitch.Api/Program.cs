@@ -1,4 +1,5 @@
 using CapTwitch.Api.Controllers;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,7 +8,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddDbContextPool<CaptTwitchDbContext>(op =>
 {
-
+    string cs = "server=localhost;Database=captwitch; user=root; password=''";
+    op.UseMySql(cs, ServerVersion.AutoDetect(cs));
 });
 
 var app = builder.Build();

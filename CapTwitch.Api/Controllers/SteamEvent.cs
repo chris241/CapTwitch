@@ -5,6 +5,7 @@ namespace CapTwitch.Api.Controllers
 {
     public class SteamEvent
     {
+        public int Id { get; set;   }
         public string Name { get; set; }
         public string Description { get; set; } 
         public DateTime Date { get; set; }
@@ -25,5 +26,10 @@ namespace CapTwitch.Api.Controllers
     public class CaptTwitchDbContext : DbContext
     {
         public DbSet<SteamEvent> SteamEvents { get; set; }  
+
+        public CaptTwitchDbContext(DbContextOptions<CaptTwitchDbContext> ctx): base(ctx)
+        {
+
+        }
     }
 }
