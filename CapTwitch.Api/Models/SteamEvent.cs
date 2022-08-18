@@ -1,13 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace CapTwitch.Api.Controllers
+namespace CapTwitch.Api.Models
 {
     public class SteamEvent
     {
-        public int Id { get; set;   }
+        public int Id { get; set; }
         public string Name { get; set; }
-        public string Description { get; set; } 
+        public string Description { get; set; }
         public DateTime Date { get; set; }
         public string Background { get; set; }
         public string Tecs { get; set; }
@@ -27,17 +27,19 @@ namespace CapTwitch.Api.Controllers
             return _ctx.SteamEvents.ToList();
         }
         [HttpPost]
-        public SteamEvent Post([FromBody]SteamEvent se)
+        public SteamEvent Post([FromBody] SteamEvent se)
         {
+            _ctx.SteamEvents.Add(se);
+            _ctx.SaveChanges();
             return se;
         }
 
     }
     public class CaptTwitchDbContext : DbContext
     {
-        public DbSet<SteamEvent> SteamEvents { get; set; }  
+        public DbSet<SteamEvent> SteamEvents { get; set; }
 
-        public CaptTwitchDbContext(DbContextOptions<CaptTwitchDbContext> ctx): base(ctx)
+        public CaptTwitchDbContext(DbContextOptions<CaptTwitchDbContext> ctx) : base(ctx)
         {
 
         }

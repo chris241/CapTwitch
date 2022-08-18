@@ -1,4 +1,5 @@
 using CapTwitch.Api.Controllers;
+using CapTwitch.Api.Models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
